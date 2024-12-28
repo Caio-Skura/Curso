@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens responseivas usando a tag picture</title>
+</head>
+<body>
+    <h1>Picture com mobile first</h1>
+    <!-- <picture>
+        <source media="min-width: 1024px" srcset="https://placekitten.com/1200">
+        <source media="min-width: 768px" srcset="https://placekitten.com/850">
+        <source media="(min- windth: 465px)" srcset="https://placekitten.com/500">
+        <img src="https://placekitten.com/300/300" alt="Imagem de um gato">
+    </picture> -->
+    <picture>
+        <source media="max-width: 375px" srcset="https://placekitten.com/250">
+        <source media="max-width: 350px" srcset="https://placekitten.com/850">
+        <source media="(max-windth: 768px)" srcset="https://placekitten.com/500">
+        <img src="https://placekitten.com/1200" alt="Imagem de um gato">
+    </picture>
+</body>
+</html>

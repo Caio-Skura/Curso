@@ -1,0 +1,17 @@
+img{
+    width: 200px;
+}
+
+img.scale{
+    transform: scaleX(2)
+}
+
+img.rotate{
+    transform: rotate(40deg);
+}
+
+img.translate{
+    transform: translateY(150px);
+}
+
+/* https://www.w3schools.com/cssref/css3_pr_transform.php */

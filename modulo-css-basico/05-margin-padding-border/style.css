@@ -1,0 +1,33 @@
+    /**
+    Forma colocando cada lateral separada
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;*/
+
+    /* forma colocando o mesmo valor no topo e nas lateais
+    margin: 30px 15px 20px 25px;*/
+    /*margin: 30px 15px*/
+
+    /*Essa seria a melhor forma colocando o mesmo valor de toda a margem 
+    margin: 30px */
+
+
+p {
+    margin: 30px 15px;
+    padding: 20px 9px 19px 3px;
+    background-color: rgb(29, 209, 23);
+    border-style: solid;
+    border-width: 20px;
+    border-color: red;
+
+    border: 20px solid orange;
+
+}
+
+h1{
+    border-style: solid;
+    border-width: 20px;
+
+    border-color: green cyan orange blueviolet;
+}
